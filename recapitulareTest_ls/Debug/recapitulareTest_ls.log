@@ -1,0 +1,12 @@
+﻿  Source.c
+C:\Users\Anca\Desktop\recapitulareTest_ls\Source.c(84,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Anca\Desktop\recapitulareTest_ls\Source.c(173,17): warning C4047: 'function': 'const char *' differs in levels of indirection from 'char *[20]'
+C:\Users\Anca\Desktop\recapitulareTest_ls\Source.c(173,11): warning C4024: 'strcmp': different types for formal and actual parameter 1
+C:\Users\Anca\Desktop\recapitulareTest_ls\Source.c(177,19): warning C4047: 'function': 'const char *' differs in levels of indirection from 'char *[20]'
+C:\Users\Anca\Desktop\recapitulareTest_ls\Source.c(177,13): warning C4024: 'strcmp': different types for formal and actual parameter 1
+C:\Users\Anca\Desktop\recapitulareTest_ls\Source.c(178,58): warning C4047: 'function': 'const char *' differs in levels of indirection from 'char *[20]'
+C:\Users\Anca\Desktop\recapitulareTest_ls\Source.c(178,52): warning C4024: 'strlen': different types for formal and actual parameter 1
+C:\Users\Anca\Desktop\recapitulareTest_ls\Source.c(179,28): warning C4047: 'function': 'const char *' differs in levels of indirection from 'char *[20]'
+C:\Users\Anca\Desktop\recapitulareTest_ls\Source.c(179,22): warning C4024: 'strcpy': different types for formal and actual parameter 2
+C:\Users\Anca\Desktop\recapitulareTest_ls\Source.c(326,87): warning C4305: 'function': truncation from 'double' to 'float'
+  recapitulareTest_ls.vcxproj -> C:\Users\Anca\Desktop\recapitulareTest_ls\Debug\recapitulareTest_ls.exe
