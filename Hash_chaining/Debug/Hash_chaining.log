@@ -1,0 +1,4 @@
+﻿  Source.c
+C:\Users\Anca\Desktop\Hash_chaining\Source.c(43,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Anca\Desktop\Hash_chaining\Source.c(109): warning C4715: 'cautareDupaSerie': not all control paths return a value
+  Hash_chaining.vcxproj -> C:\Users\Anca\Desktop\Hash_chaining\Debug\Hash_chaining.exe
