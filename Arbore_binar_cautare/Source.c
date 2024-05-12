@@ -3,6 +3,7 @@
 #include <malloc.h>
 #include <string.h>
 #include <stdlib.h>
+
 //ARBORE BINAR DE CAUTARE
 typedef struct Autor Autor;
 typedef struct Carte Carte;
@@ -18,7 +19,6 @@ struct Carte {
 	int noPages;
 };
 
-//structura pentru un nod din arbore
 struct node {
 	Carte info;
 	node* right;
@@ -47,9 +47,7 @@ Carte readCarte(FILE* f) {
 	return b;
 }
 
-//pentru inserare am nev de cartea pe care o inserez si de radacina arborelui, adica de arbore
 node* insertTree(Carte book, node* root) {
-	//compar unde trebuie sa pun cartea
 	if (root) {
 		if (book.id < root->info.id)
 		{
@@ -62,7 +60,7 @@ node* insertTree(Carte book, node* root) {
 		}
 	}
 	else {
-		return initNode(book, NULL, NULL); //nodul devine radacina pentru ca nu exista radacina
+		return initNode(book, NULL, NULL);
 	}
 }
 
@@ -79,15 +77,12 @@ void printTree(node* root) {
 	}
 }
 
-//cautare dupa id
 Carte findCarteById(node* root, int id) {
 	if (root) {
-		//verific daca radacina e elementul pe care il caut
 		if (root->info.id == id) {
 			return root->info;
 		}
 		else {
-			//verific daca id-ul e mai mic decat id-ul radacinii => atunci m-as duce in stanga
 			if (root->info.id > id) {
 				return findCarteById(root->left, id);
 			}
@@ -118,7 +113,6 @@ int height(node* root) {
 	}
 }
 
-//afisare a nodurilor de pe un anumit nivel pe care il dau eu ca param
 void afisareDePeNivel(node* root, int nivelDorit, int nivelCurent) {
 	if (root) {
 		if (nivelDorit == nivelCurent) {
@@ -131,11 +125,8 @@ void afisareDePeNivel(node* root, int nivelDorit, int nivelCurent) {
 	}
 }
 
-//stergere dintr-un arbore de facut -> atunci cand sterg radacina trebuie sa schimb locul pentru radacina
-
 void main() {
 	FILE* f = fopen("books.txt", "r");
-	//am nevoie de radacina pentru arbore
 	node* root = NULL;
 
 	int noCartes = 0;
