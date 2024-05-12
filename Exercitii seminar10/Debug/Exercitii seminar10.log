@@ -1,0 +1,8 @@
+﻿  Source.c
+C:\Users\Anca\Desktop\Exercitii seminar10\Source.c(157,55): warning C4047: '==': 'Nod *' differs in levels of indirection from 'int'
+C:\Users\Anca\Desktop\Exercitii seminar10\Source.c(157,55): warning C4047: 'function': 'Nod *' differs in levels of indirection from 'int'
+C:\Users\Anca\Desktop\Exercitii seminar10\Source.c(157,51): warning C4024: 'calculDezechilibruArbore': different types for formal and actual parameter 1
+C:\Users\Anca\Desktop\Exercitii seminar10\Source.c(163,55): warning C4047: '==': 'Nod *' differs in levels of indirection from 'int'
+C:\Users\Anca\Desktop\Exercitii seminar10\Source.c(163,55): warning C4047: 'function': 'Nod *' differs in levels of indirection from 'int'
+C:\Users\Anca\Desktop\Exercitii seminar10\Source.c(163,50): warning C4024: 'calculDezechilibruArbore': different types for formal and actual parameter 1
+  Exercitii seminar10.vcxproj -> C:\Users\Anca\Desktop\Exercitii seminar10\Debug\Exercitii seminar10.exe
