@@ -175,11 +175,21 @@ void main() {
 	//inserareInArbore(&radacina, initializare(8, "Harap-Alb", 54));
 	//inserareInArbore(&radacina, initializare(13, "Moara cu noroc", 100));
 
-
+/////////////////////////////////////////////////////
 	inserareInAvl(initializare(1, "Ceva", 100), &radacina);
 	inserareInAvl(initializare(2, "Altceva", 200), &radacina);
 	inserareInAvl(initializare(3, "CevaCeva", 50), &radacina);
 	inserareInAvl(initializare(8, "Altcevaaaa", 850), &radacina);
+
+	int inaltime = calculInaltimeArbore(radacina);
+	printf("Inaltimea arborelui este: %d\n", inaltime);
+	
+	int dezechilibru = calculDezechilibruArbore(radacina);
+	printf("Dezechilibrul arborelui este: %d\n", dezechilibru);
+
+
+	//rotireDreapta(&radacina);
+	//rotireStanga(&radacina);
 
 
 	parcurgereInordine(radacina);
