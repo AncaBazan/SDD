@@ -1,0 +1,3 @@
+﻿  Source.c
+C:\Users\Anca\Desktop\CoadaDePrioritati\Source.c(90,11): warning C4101: 'aux': unreferenced local variable
+  CoadaDePrioritati.vcxproj -> C:\Users\Anca\Desktop\CoadaDePrioritati\Debug\CoadaDePrioritati.exe
