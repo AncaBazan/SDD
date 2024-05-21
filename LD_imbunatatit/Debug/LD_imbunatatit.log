@@ -1,0 +1,23 @@
+﻿  MaiSimplu.c
+C:\Users\Anca\Desktop\LD_imbunatatit\MaiSimplu.c(23,39): warning C4013: 'strlen' undefined; assuming extern returning int
+C:\Users\Anca\Desktop\LD_imbunatatit\MaiSimplu.c(24,8): warning C4013: 'strcpy' undefined; assuming extern returning int
+C:\Users\Anca\Desktop\LD_imbunatatit\MaiSimplu.c(44,21): warning C4133: '=': incompatible types - from 'nodld *' to 'nodld *'
+C:\Users\Anca\Desktop\LD_imbunatatit\MaiSimplu.c(45,19): warning C4133: '=': incompatible types - from 'nodld *' to 'nodld *'
+C:\Users\Anca\Desktop\LD_imbunatatit\MaiSimplu.c(46,19): warning C4133: '=': incompatible types - from 'nodld *' to 'nodld *'
+C:\Users\Anca\Desktop\LD_imbunatatit\MaiSimplu.c(59,20): warning C4133: '=': incompatible types - from 'nodld *' to 'nodld *'
+C:\Users\Anca\Desktop\LD_imbunatatit\MaiSimplu.c(70,20): warning C4133: '=': incompatible types - from 'nodld *' to 'nodld *'
+C:\Users\Anca\Desktop\LD_imbunatatit\MaiSimplu.c(79,1): warning C4133: 'initializing': incompatible types - from 'nodld *' to 'nodld *'
+C:\Users\Anca\Desktop\LD_imbunatatit\MaiSimplu.c(95,14): warning C4013: 'strcmp' undefined; assuming extern returning int
+C:\Users\Anca\Desktop\LD_imbunatatit\MaiSimplu.c(99,21): warning C4133: '=': incompatible types - from 'nodld *' to 'nodld *'
+C:\Users\Anca\Desktop\LD_imbunatatit\MaiSimplu.c(134,20): warning C4133: '=': incompatible types - from 'nodld *' to 'nodld *'
+C:\Users\Anca\Desktop\LD_imbunatatit\MaiSimplu.c(151,22): warning C4133: '=': incompatible types - from 'nodld *' to 'nodld *'
+C:\Users\Anca\Desktop\LD_imbunatatit\MaiSimplu.c(164,26): warning C4133: '=': incompatible types - from 'nodld *' to 'nodld *'
+C:\Users\Anca\Desktop\LD_imbunatatit\MaiSimplu.c(177,26): warning C4133: '=': incompatible types - from 'nodld *' to 'nodld *'
+C:\Users\Anca\Desktop\LD_imbunatatit\MaiSimplu.c(178,26): warning C4133: '=': incompatible types - from 'nodld *' to 'nodld *'
+C:\Users\Anca\Desktop\LD_imbunatatit\MaiSimplu.c(174,1): warning C4133: 'initializing': incompatible types - from 'nodld *' to 'nodld *'
+C:\Users\Anca\Desktop\LD_imbunatatit\MaiSimplu.c(175,1): warning C4133: 'initializing': incompatible types - from 'nodld *' to 'nodld *'
+C:\Users\Anca\Desktop\LD_imbunatatit\MaiSimplu.c(195,21): warning C4133: '=': incompatible types - from 'nodld *' to 'nodld *'
+C:\Users\Anca\Desktop\LD_imbunatatit\MaiSimplu.c(200,21): warning C4133: '=': incompatible types - from 'nodld *' to 'nodld *'
+C:\Users\Anca\Desktop\LD_imbunatatit\MaiSimplu.c(220,20): warning C4133: '=': incompatible types - from 'nodld *' to 'nodld *'
+C:\Users\Anca\Desktop\LD_imbunatatit\MaiSimplu.c(239,20): warning C4133: '=': incompatible types - from 'nodld *' to 'nodld *'
+  LD_imbunatatit.vcxproj -> C:\Users\Anca\Desktop\LD_imbunatatit\Debug\LD_imbunatatit.exe
